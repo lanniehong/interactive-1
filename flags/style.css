@@ -1,0 +1,112 @@
+/* styles for index.html */
+
+body {
+	font-family: sans-serif;
+	font-size: 48px;
+	line-height: 1;
+}
+a {
+	color: #000;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: letter-spacing 0.2;
+}
+
+/* colombia */
+
+.colombia div {
+	width: 100vw;
+	height: 100px;
+}
+.colombia div.first {
+	background-color: #FCD116;
+	height: 50vh;
+}
+.colombia div.second {
+	background-color: #003893;
+	height: 25vh;
+}
+.colombia div.third {
+	background-color: #CE1126;
+	height: 25vh;
+}
+
+/* palau */
+
+.palau div {
+	width: 100vw;
+	height: 100px;
+	background-color: #0085CA;
+}
+.palau div.first {
+	background-color: #0085CA;
+	height: 100vh;
+}
+.palau div.second {
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+	background-color: yellow;
+	position: fixed;
+	top: 25vh;
+	left: 25vw;
+}
+
+/* madagascar */
+
+.madagascar div {
+	width: 100vw;
+	height: 100px;
+}
+.madagascar div.first {
+	background-color: white;
+	width: 40vh;
+	height: 100vh;
+	position: absolute;
+}
+.madagascar div.second {
+	background-color: #F9423A;
+	width: 100vw;
+	height: 50vh;
+}
+.madagascar div.third {
+	background-color: #00843D;
+	width: 100vw;
+	height: 50vh;
+}
+
+/* belgium */
+
+.belgium div {
+	width: 100vw;
+	height: 100px;
+}
+.belgium div.first {
+	background-color: black;
+	width: 33.3vw;
+	height: 100vh;
+	position: absolute;
+}
+.belgium div.second {
+	background-color: yellow;
+	width: 33.3vw;
+	height: 100vh;
+	left: 33.3vw;
+	position: absolute;
+}
+.belgium div.third {
+	background-color: red;
+	width: 33.3vw;
+	height: 100vh;
+	left: 66.6vw;
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
