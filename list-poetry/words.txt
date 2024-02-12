@@ -1,119 +1,119 @@
 cca
-- san francisco
-- art
-- graphic design
-- students
-- bus
-- mission district
-- illustration
-- tools
-- roommates
-- macbook
+san francisco
+art
+graphic design
+students
+bus
+mission district
+illustration
+tools
+roommates
+macbook
 
 washington
-- seattle
-- federal way
-- rain
-- snow
-- home
-- birth
-- traffic
-- sasquatch
-- family
-- friends
+seattle
+federal way
+rain
+snow
+home
+birth
+traffic
+sasquatch
+family
+friends
 
 food
-- korean
-- thai
-- mexican
-- grapes
-- rice
-- soup
-- sweet
-- spicy
-- hot
-- cold
+korean
+thai
+mexican
+grapes
+rice
+soup
+sweet
+spicy
+hot
+cold
 
 music
-- edm
-- rnb
-- bass
-- soul
-- piano
-- violin
-- music notes
-- headphones
-- bass
-- focus
+edm
+rnb
+bass
+soul
+piano
+violin
+music notes
+headphones
+bass
+focus
 
 korea
-- seoul
-- vacation
-- food
-- grandma
-- tae kwon do
-- plane
-- summer
-- family
-- mosquitoes
-- heat
+seoul
+vacation
+food
+grandma
+tae kwon do
+plane
+summer
+family
+mosquitoes
+heat
 
 animals
-- lucky
-- shih tzu
-- dogs
-- cats
-- sea otters
-- monkeys
-- tigers
-- seals
-- snake
-- lizard
+lucky
+shih tzu
+dogs
+cats
+sea otters
+monkeys
+tigers
+seals
+snake
+lizard
 
 travel
-- flights
-- family
-- friends
-- california
-- vegas
-- germany
-- fun
-- hotel
-- pictures
-- 
+flights
+family
+friends
+california
+vegas
+germany
+fun
+hotel
+pictures
+
 
 winter
-- snow
-- cold
-- break
-- skiing
-- christmas
-- cozy
-- music
-- lights
-- nostalgia
-- movies
+snow
+cold
+break
+skiing
+christmas
+cozy
+music
+lights
+nostalgia
+movies
 
 summer
-- sunny
-- sunset
-- break
-- vibes
-- music
-- fashion
-- driving
-- birthday
-- swimming
-- nature
+sunny
+sunset
+break
+vibes
+music
+fashion
+driving
+birthday
+swimming
+nature
 
 california
-- los angeles
-- san francisco
-- disneyland
-- hollywood
-- chinatown
-- golden gate bridge
-- vacation
-- hot
-- cca
-- plane
+los angeles
+san francisco
+disneyland
+hollywood
+chinatown
+golden gate bridge
+vacation
+hot
+cca
+plane
