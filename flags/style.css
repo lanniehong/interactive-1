@@ -102,10 +102,66 @@ a {
 	position: absolute;
 }
 
+/* sweden */
 
+.sweden div {
+	width: 100vw;
+	height: 100px;
+}
+.sweden div.first {
+	background-color: #006AA7;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+}
+.sweden div.second {
+	background-color: #FFCD00;
+	height: 15vh;
+	position: absolute;
+	top: 300px;
+}
+.sweden div.third {
+	background-color: #FFCD00;
+	width: 15vw;
+	height: 100vh;
+	position: absolute;
+	left: 400px;
+}
 
+/* tonga */
 
-
+.tonga div {
+	width: 100vw;
+	height: 100px;
+}
+.tonga div.first {
+	background-color: red;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+}
+.tonga div.second {
+	background-color: white;
+	width: 40vw;
+	height: 30vh;
+	position: absolute;
+}
+.tonga div.third {
+	background-color: red;
+	width: 5vw;
+	height: 20vh;
+	position: fixed;
+	top: 40px;
+	left: 200px;
+}
+.tonga div.fourth {
+	background-color: red;
+	width: 20vw;
+	height: 5vh;
+	position: absolute;
+	top: 120px;
+	left: 120px;
+}
 
 
 
