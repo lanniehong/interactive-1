@@ -1,0 +1,64 @@
+/* styles for index.html */
+
+body {
+	font-family: sans-serif;
+	font-size: 48px;
+	line-height: 1;
+}
+a {
+	color: #000;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: letter-spacing 0.2;
+}
+
+/* may1971 */
+
+.may1971 div.background {
+	width: 100vw;
+	height: 100vh;
+	background-color: #5BA25E;
+	
+}
+.may1971 div.mu {
+	font-family: "Helvetica Neue";
+	font-size: 15vw;
+	color: white;
+	position: absolute;
+	top: 10vh;
+	left: 41vw;
+}
+
+.may1971 div.si {
+	font-family: "Helvetica Neue";
+	font-size: 15vw;
+	color: white;
+	position: absolute;
+	top: 30vh;
+	left: 45vw;
+}
+
+.may1971 div.ca {
+	font-family: "Helvetica Neue";
+	font-size: 15vw;
+	color: white;
+	position: absolute;
+	top: 48vh;
+	left: 43vw;
+}
+.may1971 div.line {
+	width: 40vw;
+	height: 5px;
+	background-color: white;
+	top: 90vh;
+	left: 30vw;
+	position: absolute;
+}
+.may1971 div.vi {
+	font-family: "Helvetica Neue";
+	font-size: 15vw;
+	color: white;
+	position: absolute;
+	bottom: 2vh;
+	left: 45vw;
+}
