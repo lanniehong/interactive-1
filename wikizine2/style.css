@@ -82,7 +82,7 @@ h2 {
 /*	styles for h2s*/
 	font-size: 50px;
 	font-family: "Koulen", sans-serif;
-	margin-left: 80px;
+	margin-left: 180px;
 	margin-top: 40px;
 	padding: 10px;
 }
@@ -120,7 +120,7 @@ section {
 	padding: 40px;
 	gap: 2em;
 	margin-top: 15px;
-	margin-inline: 100px;
+	margin-inline: 140px;
 }
 
 	/* Vector */
