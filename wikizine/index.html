@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>layout samples for wikizine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+.....
+<body>
+  <p class="koulen-regular">this is a a, directly under the body element</p>
+  <p>kejrfejrbfkjebrjbekrjbkjrebkjbrekgbrjbgj</p>
+.....
+  <section>
+    <p>section elemetnt, sections are set to have 3 em vertical margins with 20 bg color</p>
+    <p>paragraphs r set ot have 1em bottom margin exceot when the para is the last child</p>
+    <p>the default font fmailt for this body is set as heletica for gerneriv dan serif, the browser is usong the local font isntalled on you maching to show the letters</p>
+    <p class="koulen-regular">this text shoulf appear in one usin the webfont files hosted on google fonts</p>
+  </section>
+.....
+  <section>
+    <p>this is a para in ghe second section. 3em spacing</p>
+  </section>
+....
+  <section class="flex">
+     <div style="background-color: lightgreen;">a flex item inside a section set as display flex, flex items dislay side by side within its context</div>
+
+     <div style="background-color: yellow; width: 200px;"> a flex item can have a width. its fine to write css inline as html attribute. just dont over use it then it becoes messy</div>
+
+    <div style="background-color: lightblue; align-self: end;">a flex can be aligned to the bottom of its parents</div>
+</section>
+
+<section class="flex-then-wrap-with-gap">
+  <div>many flexbox items</div>
+  <div>you can set them to wrap</div>
+  <div>then they flow to the next line..</div>
+  <div>...whemnever necessary</div>
+  <div>like this</div>
+  <div>try changing viiewport wdth</div>
+  <div>these boxes are also using child combinator selector</div>
+  <div>see css file fo more</div>
+  <div>n the gap/gutter between boxes is 1em</div>
+</section>
+
+<section class="flex-space-between">
+  <div style="background-color: yellow;"> another near flexbox trick is that you can...</div>
+  <div style="background-color: lightblue;"> ... set the flex items to stay as far away as possible...</div>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6lULfE1OyTIxZAN5Pg055VttEGUKXwPRizQ&usqp=CAU" style="width: 150px">
+  <div style="background-color: lightseagreen;"> ...within thier context</div>
+</section>
+
+<section class="grid">
+  <div>this is a section set as display:grid with a 4 equal columns</div>
+  <div>the sections child elements, nomatter what thue are, will be displayed on this grid</div>
+  <div>im a div jus like my previous ones</div>
+  <div>im a paragraph still occupying the same space as divs</div>
+  <div>im the 5th child appearingin a new line</div>
+  <div>then we continue on</div>
+  <div style="grid-column: span 2"> ima child that takes up 2 columns</div>
+  <div style="grid-column: 2 / 4;"> ima child div that starts from vertical grid line #2 and ends at #4</div>
+</section>
+
+<section class="grid transition">
+  <div>css transition allows u to change porperty value from one to another smoothly</div>
+  <div class= "transition-width">get smaller on hover</div>
+  <div class="transition-width-height">narrower and taller</div>
+  <div class="transition-move">moving</div>
+  <div class="transition-rotate">rotating</div>
+  <div class="transition-rotate3d">3d rotate</div>
+</section>
+
+<section>
+  <div class="ball"></div>
+</section>
+
+
+
+</body>
+</html>
