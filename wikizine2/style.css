@@ -1,0 +1,155 @@
+/* 1. webfont @import rules */
+
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Maitree:wght@200;300;400;500;600;700&display=swap');
+
+/* 2. css reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background: #E3D6B4;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* beginning of my own styles */
+
+.koulen-regular {
+  font-family: "Koulen", sans-serif;
+  font-style: normal;
+}
+
+header {
+/*	background-color: yellow;*/
+	width: 100vw;
+	height: 100vh;
+}
+
+h1, nav {
+	font-family: "Koulen", sans-serif;
+}
+
+h1 {
+	font-size: 47vw;
+	text-align: center;
+	line-height: 0.9;
+}
+
+h2 {
+/*	styles for h2s*/
+	font-size: 50px;
+	font-family: "Koulen", sans-serif;
+	margin-left: 50px;
+	margin-top: 40px;
+	padding: 10px;
+}
+
+h3 {
+	font-size: 25px;
+
+}
+h3.right {
+	text-align: right;
+}
+
+nav {
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 5vw;
+	box-sizing: border-box;
+}
+
+.maitree-regular {
+  font-family: "Maitree", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+section {
+/*	css grid for 3 equal columns*/
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 50px;
+	gap: 2em;
+	margin-top: 15px;
+}
+
+	/* Vector */
+
+.dog {
+position: absolute;
+width: 1216px;
+height: 663.5px;
+left: 256px;
+top: 11272.5px;
+background: #000000;
+}
+
+/* Vector */
+.colors {
+position: absolute;
+width: 296px;
+height: 429px;
+left: 1323px;
+top: 2749px;
+background: #282213;
+}
+<svg width="296" height="429" viewBox="0 0 296 429" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 0H296V86H0V0Z" fill="#FFF9E9"/>
+<path d="M0 86H296V172H0V86Z" fill="#D7B96B"/>
+<path d="M0 172H296V256H0V172Z" fill="#938563"/>
+<path d="M0 256H296V344H0V256Z" fill="#59440C"/>
+<path d="M0 343H296V429H0V343Z" fill="#282213"/>
+</svg>
+
+
+
+
