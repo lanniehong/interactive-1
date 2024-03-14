@@ -117,9 +117,10 @@ section {
 /*	css grid for 3 equal columns*/
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	padding: 50px;
+	padding: 40px;
 	gap: 2em;
 	margin-top: 15px;
+	margin-inline: 100px;
 }
 
 	/* Vector */
