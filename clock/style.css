@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.second {
+  background-color: #27AAE1;
+  margin: 20px;
+  width: 40vh;
+  height: 40vh;
+  position: absolute;
+  margin-left: 40vw;
+  /*   transform: rotate(0deg); */
+  transform-origin: 0% 100%;
+}
+
+.minute {
+  background-color: #2B3990;
+  margin: 20px;
+  width: 60vh;
+  height: 60vh;
+  margin-left: 40vw;
+  /*   transform: rotate(0deg); */
+  transform-origin: 0% 100%;
+}
+
+
+
+
+
+
+
+
+
+  width: 10px;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 5px;
+  position: absolute;
+  top: 50px;
+  left: 195px;
+  transform-origin: 50% 100%;
