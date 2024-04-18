@@ -10,18 +10,25 @@ function update(e) {
   let mouseY = e.clientY;
   let scrollY = window.scrollY;
   let text = "";
+  let color = "";
+  let bgcolor = "";
   
-  let scrollPercentage = (scrollY / (document.documentElement.scrollHeight - viewportH)) * 100;
 
-
-  if (mouseX < viewportH / 2) {
-    text = "goodbye";
-  }
-  else {
+  if (mouseY < viewportH / 2) {
     text = "hello";
+    color = "#E08980";
+    bgcolor = "#E6BBB4";
+  }
+  
+  else {
+    text = "goodbye";
+    color = "#426275";
+    bgcolor = "#36434B";
   }
 
 // output to html elem
- document.getElementById("t").innerText = text;
- document.getElementById("x").innerText = mouseX;
- document.getElementById("y").innerText = mouseY;
+  document.getElementById("t").innerText = text;
+  document.getElementById("t").style.color = color;
+  document.getElementsByTagName("body")[0].style.backgroundColor = bgcolor;
+
+}
