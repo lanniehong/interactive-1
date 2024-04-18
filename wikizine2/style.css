@@ -70,12 +70,14 @@ header {
 
 h1, nav {
 	font-family: "Koulen", sans-serif;
+	scroll-behavior: smooth;
 }
 
 h1 {
 	font-size: 47vw;
 	text-align: center;
 	line-height: 0.9;
+	
 }
 
 h2 {
@@ -142,6 +144,10 @@ height: 429px;
 left: 1323px;
 top: 2749px;
 background: #282213;
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 
