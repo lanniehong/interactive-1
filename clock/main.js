@@ -16,22 +16,11 @@ function updateTime() {
   let now = year + "/" + month + "/" + date + ", " + hour + ":" + min + ":" + sec;
   console.log (now);
 
-
-
-
   // update the hand
   document.querySelector(".second").style.transform = "rotate(" + sec * 6 + "deg)"; 
-
-
-
-  document.querySelector(".minute").style.transform = "rotate(" + sec * 6 + "deg)"; 
-
-
-
+  document.querySelector(".minute").style.transform = "rotate(" + min * 6 + "deg)";
+  document.querySelector(".hour").style.transform = "rotate(" + hour * 6 + "deg)";
 }
-
-
-
 
 // run the above function every second
 setInterval(updateTime, 1000);
