@@ -54,6 +54,11 @@ body {
 	background-color: black;
 	width: 100vw;
 	height: 100vh;
+	font-family: "Helvetica Neue";
+	font-variant: small-caps;
+	font-size: 20px;
+	margin-inline: 50px;
+	text-align: center;
 }
 
 div {
@@ -64,10 +69,11 @@ div {
 	height: 180px;
 }
 
-p {
+ {
 	font-family: "Helvetica Neue";
 	font-variant: small-caps;
 	font-size: 30px;
+	margin-inline: 50px;
 }
 
 
