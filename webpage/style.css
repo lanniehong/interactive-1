@@ -1,0 +1,158 @@
+/* 2. css reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* beginning of my own styles */
+
+body {
+	background-color: black;
+	width: 100vw;
+	height: 100vh;
+}
+
+div {
+	margin: 25px;
+	display: block;
+	float: left;
+	width: 220px;
+	height: 180px;
+}
+
+p {
+	font-family: "Helvetica Neue";
+	font-variant: small-caps;
+	font-size: 30px;
+}
+
+
+.boxone {
+	background-color: #690101;
+}
+.boxtwo {
+	background-color: #AD1212;
+}
+.boxthree {
+	background-color: #C93A3A;
+}
+.boxfour {
+	background-color: #E06D6D;
+}
+.boxfive {
+	background-color: #FC9E9E;
+}
+.boxsix {
+	background-color: #FFC5C5;
+}
+
+.boxseven {
+	background-color: #013D69;
+}
+.boxeight {
+	background-color: #0C619E;
+}
+.boxnine {
+	background-color: #3A84C9;
+}
+.boxten {
+	background-color: #6DA2E0;
+}
+.boxeleven {
+	background-color: #9ECFFC;
+}
+.boxtwelve {
+	background-color: #C5E0FF;
+}
+
+.boxthirteen {
+	background-color: #036201;
+}
+.boxfourteen {
+	background-color: #219E0C;
+}
+.boxfifteen {
+	background-color: #79C93A;
+}
+.boxsixteen {
+	background-color: #92E06D;
+}
+.boxseventeen {
+	background-color: #BCFC9E;
+}
+.boxeighteen {
+	background-color: #E2FFC5;
+}
+
+
+.boxnineteen {
+	background-color: #490162;
+}
+.boxtwenty {
+	background-color: #700C9E;
+}
+.boxtwentyone {
+	background-color: #933AC9;
+}
+.boxtwentytwo {
+	background-color: #BB6DE0;
+}
+.boxtwentythree {
+	background-color: #E39EFC;
+}
+.boxtwentyfour {
+	background-color: #F3C5FF;
+}
+
+
+
+
+
+
+
+
+
