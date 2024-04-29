@@ -70,15 +70,15 @@ a {
 	bottom: -27vh;
 	left: 43vw;
 }
-.paraleft {
-	font-size: 25px;
+.may1971 .para-left {
+	font-size: 15px;
 	font-weight: bold;
 	letter-spacing: 0.01em;
 	left: 5vw;
 	top: 90vh;
 	position: absolute;
 }
-.pararight {
+.may1971.para-right {
 	font-size: 25px;
 	font-weight: bold;
 	letter-spacing: 0.01em;
@@ -89,9 +89,9 @@ a {
 
 /* jan1972 */
 
-.jan1972 div.background {
+.jan1972 {
 	width: 100vw;
-	height: 200vh;
+	height: 100vh;
 	background-color: #830739;
 }
 .jan1972 .col {
@@ -101,15 +101,55 @@ a {
 	text-align: center;
 	font-size: 18vw;
 	line-height: 25vw;
-	border: 1px solid;
-	box-sizing: border-box;
 	background: #830739;
+	color:#6DA0A6;
 }
 .jan1972 .row {
 	clear: left;
 }
+.jan1972 .para-left {
+   position: absolute;
+   left: 40vw;
+   top: 105vw;
+   color:#FFFFFF;
+   font-size: 10px;
+   text-align: right;
+}
+.jan1972 .para-right {
+   position: absolute;
+   left: 60vw;
+   top: 105vw;
+   color:#FFFFFF;
+   font-size: 10px;
+}
 
-background-color: #5E8890;
+/* nov1959.html */
+
+.nov1959 {
+	width: 100vw;
+	height: 100vh;
+	background-color: #D9DAD5;
+}
+.nov1959 .top-left {
+	font-size: 4vw;
+	font-weight: bold;
+	padding-top: 4vh;
+	padding-left: 1vh;
+}
+.nov1959 .top-grey {
+	height: 5vh;
+	width: 5vw;
+	color: gray;
+}
+
+
+
+
+
+
+
+
+
 
 
 
